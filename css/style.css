@@ -1,0 +1,23 @@
+.elem1, .elem2, .elem3, .elem4{
+    border:1px solid violet;
+
+}
+
+.elem1{
+    background-color: chartreuse;
+}
+
+.elem2{
+    background-color: rgb(20, 228, 255);
+}
+
+.elem3{
+    background-color: indigo;
+}
+
+.elem4{
+    background-color: mediumvioletred;
+}
+.elem5{
+    background-color: tomato;
+}

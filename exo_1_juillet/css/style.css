@@ -1,0 +1,29 @@
+body{
+    background-image: -webkit-repeating-radial-gradient(circle closest-side, rgba(194,123,160,0.7) 0, rgba(194,123,160,0.7) 44%, rgba(0,0,0,1) 100%);
+    background-image: -moz-repeating-radial-gradient(circle closest-side, rgba(194,123,160,0.7) 0, rgba(194,123,160,0.7) 44%, rgba(0,0,0,1) 100%);
+    background-image: repeating-radial-gradient(circle closest-side, rgba(194,123,160,0.7) 0, rgba(194,123,160,0.7) 44%, rgba(0,0,0,1) 100%);
+    background-repeat: repeat-y;
+    background-position: 50% 50%;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+}
+
+.elem1{
+    background-color: blue;
+}
+
+.elem2{
+    background-color: blueviolet;
+}
+
+.elem3{
+    background-color: crimson;
+}
+
+.MyForm{
+    color: coral;
+}

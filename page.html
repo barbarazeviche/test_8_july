@@ -1,0 +1,136 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo 01 - Bootstarp 4.6</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/bootstrap.js"></script>
+</head>
+<body>
+    <h1>Demo Bootstarp 4.6</h1>
+
+    <div class="container"> 
+        <div class="elem1">Hello</div>
+        <div class="elem2">Riri</div>
+    </div>
+    <div class="container-fluid"> 
+        <div class="elem3">Fifi</div>
+        <div class="elem4">Zaza</div>
+    </div>   
+
+    <div class="elem3">Fifi</div>
+    <div class="elem4">Zaza</div>
+
+    <h2>Syteme de grille</h2>
+    <div class="container">
+        <h3>Colonnes de taille identique</h3>
+        <div class="row">
+            <div class="col elem1">Riri Duck</div>
+            <div class="col elem2">Zaza Vanderquack</div>
+            <div class="col elem3">Donald Duck</div>
+            <div class="col elem4">Della Duck</div>
+        </div>
+        <h3>Systeme de 12 colonnes sur une ligne</h3>
+        <div class="row">
+            <div class="col-2 elem1">Duck</div>
+            <div class="col-5 elem2">Vanderquack</div>
+            <div class="col-3 elem3">Picsou</div>
+            <div class="col-2 elem4">Mouse</div>
+            <!-- Passage a la ligne automatique après 12 colonnes occuper -->
+            <div class="col-3 elem5">Chatshimi</div>
+            <div class="col-2 elem1">Le Chat</div>
+        </div>
+        <h3>Systeme de grille responsive</h3>
+        <div class="row">
+            <div class="col-6 col-sm-4 col-md-3 col-lg-1 elem1">1</div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-1 elem2">2</div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-1 elem3">3</div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-1 elem4">4</div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-1 elem5">5</div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-1 elem1">6</div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-1 elem2">7</div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-1 elem3">8</div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-1 elem4">9</div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-1 elem5">10</div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-1 elem1">11</div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-1 elem2">12</div>
+        </div>
+    </div>
+</div>
+<br> <br><br><br><br><br><br>
+<h2>Exo 01</h2>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-1 col-lg-5 elem5">1</div>
+            <div class="col-sm-2 elem4">2</div>
+            <div class="col-sm-4 col-lg-4 elem2">3</div>
+            <div class="col-sm-4 col-lg-4 elem1">4</div>
+            <div class="col-sm-12 col-lg-4 elem3">5</div>
+            <div class="col-sm-12 col-lg-4 elem4">6</div>
+            <div class="col-sm-12 col-lg-3 elem5">7</div>
+            <div class="col-sm-6 col-lg-3 elem1">8</div>
+            
+        </div> 
+       
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="container">
+        
+        <h3>Systeme de 12 colonnes sur une ligne</h3>
+        <div class="row">
+            <div class="col-2 elem1">Duck</div>
+            <div class="col-5 elem2">Vanderquack</div>
+            <div class="col-3 elem3">Picsou</div>
+            <div class="col-2 elem4">Mouse</div>
+            Passage a la ligne automatique après 12 colonnes occuper -->
+            <!-- <div class="col-3 elem5">Chatshimi</div>
+            <div class="col-2 elem1">Le Chat</div>
+        </div
+        <h3>Systeme de grille responsive</h3>
+        <div class="row">
+            <div class="col-6 col-sm-4 col-md-3 col-lg-1 elem1">1</div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-1 elem2">2</div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-1 elem3">3</div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-1 elem4">4</div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-1 elem5">5</div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-1 elem1">6</div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-1 elem2">7</div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-1 elem3">8</div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-1 elem4">9</div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-1 elem5">10</div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-1 elem1">11</div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-1 elem2">12</div>
+            <div class="row">
+                <div class="col elem1">Riri Duck</div>
+                <div class="col elem2">Zaza Vanderquack</div>
+                <div class="col elem3">Donald Duck</div>
+                <div class="col elem4">Della Duck</div>
+            </div>
+        </div>
+    </div> --> 
+
+
+
+
+</body>
+</html>
